@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .music-player {
+            display: flex;
+            align-items: center;
+            margin: 20px auto;
+            width: 300px;
+            padding: 10px;
+            background-color: #c3eed0;
+            border-radius: 5px;
+        }
+
+        .music-info {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .song-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .artist {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .controls button {
+            height: 30px;
+            width: 30px;
+            margin: 0 5px;
+            background-color: rgb(75, 71, 71);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="music-player">
+        <img src="vector.jpg" alt="Album Cover">
+        <div class="music-info">
+            <h2 class="song-title">Song Title</h2>
+            <p class="artist">Artist Name</p>
+        </div>
+        <div class="controls">
+
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+                <button><i class="fa fa-pause" style="color: white;"></i></button>
+                <button><i class="fa fa-chevron-left" style="color: white;"></i></button>
+                <button><i class="fa fa-chevron-right" style="color: white;"></i></button>
+            
+        </div>
+    </div>
+</body>
+</html>
